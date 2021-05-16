@@ -51,5 +51,12 @@ module.exports = {
     camelcase: 'off',
     quotes: ['off', 'single'],
     semi: 0,
+    'comma-dangle': ['error', {
+      'arrays': 'always-multiline',
+      'objects': 'always-multiline',
+      'imports': 'ignore',
+      'exports': 'ignore',
+      'functions': 'ignore'
+    }]
   },
 };

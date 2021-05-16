@@ -40,4 +40,7 @@ module.exports = {
     writeToDisk: true,
     host: '0.0.0.0',
   },
+  node: {
+    "fs": "empty"
+  }
 };
